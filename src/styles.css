@@ -1,0 +1,45 @@
+:root {
+  --primaryColor: #d5f032;
+  --secondaryColor: #edff7a;
+  --textcolor: rgb(158 47 47);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.output {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+.emojiList {
+  margin: 2rem;
+  font-size: 3rem;
+}
+.inline-list {
+  display: inline;
+  padding: 0.9rem;
+}
+
+body{
+  background-color:var(--primaryColor);
+  color:var(--textcolor);
+}
+.emoji-img{
+  height: 25rem;
+  width:100%;
+}
+
+.emoji-tracker{
+  background-color: var(--secondaryColor);
+  /* height: 25rem; */
+  padding: 1rem;
+}
+.input-box{
+  width:25rem;
+  height:4rem;
+  font-size: 3rem;
+  text-align: center;
+  border:2px solid black;
+  border-radius:10px;
+  background-color:var(--primaryColor);
+}
